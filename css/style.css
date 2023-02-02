@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background:#273040;
+  background:#2c2931;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1869,7 +1869,7 @@ z-index: 600;
 #hola{
     width: 100vw;
     height: 100vh;
-    background-color: #1a202b;
+    background-color: #191127;
     position: fixed;
     z-index: 999;
 }
@@ -1887,8 +1887,8 @@ z-index: 600;
 
 #preloaderimage {
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 150px;
     height: 150px;
@@ -1928,7 +1928,7 @@ Wordz
 }
 
 .letter {
-  display: inline-block;
+  display: inline-flex;
   position: relative;
   float:none;
   -webkit-transform: translateZ(25px);
@@ -1938,6 +1938,7 @@ Wordz
 }
 
 .letter.out {
+  color: #8c52ff;
   -webkit-transform: rotateX(90deg);
           transform: rotateX(90deg);
   -webkit-transition: -webkit-transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
@@ -2671,6 +2672,7 @@ display: inline;
 		background: url(../images/bubble1.png) top left no-repeat;
 	background-size: 22%;
 }
+
 .fluid {
   width: 250px;
   height: 250px;
