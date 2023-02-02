@@ -1916,6 +1916,12 @@ Wordz
   opacity: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .word {
+    font-size: .8em;
+  }
+}
+
 .wordcolor {
   color: #e3d7fa;
   text-shadow: #000 0 0 10px;
