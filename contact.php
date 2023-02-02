@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // send the email
-    $to = 'you@example.com';
+    $to = 'hello@flur.pro';
     $subject = 'New Contact Form Submission';
     $body = "From: $name\nEmail: $email\nMessage:\n$message";
     mail($to, $subject, $body);
