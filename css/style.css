@@ -19,8 +19,13 @@ html {
   font-size: 62.5%;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   background:#2c2931;
+  margin: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
