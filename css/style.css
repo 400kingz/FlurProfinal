@@ -1935,7 +1935,7 @@ Wordz
 
 -------------------------------- */
 .word {
-  font-size: .69em;
+  font-size: 1em;
       position: absolute;
     width: 100%;
     left: 0;
@@ -1944,7 +1944,7 @@ Wordz
 
 @media screen and (max-width: 768px) {
   .word {
-    font-size: .8em;
+    font-size: .5em;
   }
 }
 
@@ -1954,7 +1954,7 @@ Wordz
 }
 
 .letter {
-  padding: .35%;
+  padding: .6%;
   display: inline-flex;
   position: relative;
   float:none;
@@ -1968,10 +1968,10 @@ Wordz
   color: #8c52ff;
   -webkit-transform: rotateX(90deg);
           transform: rotateX(90deg);
-  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  transition: -webkit-transform 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  transition: transform 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  transition: transform 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: -webkit-transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .letter.behind {
