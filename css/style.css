@@ -822,8 +822,74 @@ display: none;
 	background-size: 170%;
 }
 .brandpicover img{
-	height:100%;
+  height: 50%;
+    position: relative;
+    top: 177px;
+    right: 9px;
 }
+
+@media only screen and (max-width: 768px) {
+  .brandpicover img{
+    top: 109px;
+    right: 47px;
+    position: relative;
+    height: 290px;
+  }
+}
+
+
+/* 16 */
+.btn-16 {
+  border: none;
+  color: #000;
+}
+.btn-16:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+.btn-16:hover {
+  color: #000;
+}
+.btn-16:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+.btn-16:active {
+  top: 2px;
+}
+
+.ohbutton {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  margin: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
 .brandpicover{
 	width:50%;
 	position: absolute;
@@ -1314,7 +1380,9 @@ top: 41vh;
     z-index: 1;
 }
 .workbannerpic img{
-width: 100%;
+  top: -113px;
+    position: relative;
+    width: 100%;
 }
 .workbannervalpic{
 position: absolute;
@@ -2221,7 +2289,7 @@ main .cd-main-content.cd-about {
   width: 100%;
   /* .cd-main-content basic style - about page */
 }
-main .cd-main-content.cd-londonborn {
+main .cd-main-content.cd-opulenthour {
   /* .cd-main-content basic style - about page */
   display: table;
   width: 100%;
@@ -2268,7 +2336,7 @@ main .cd-main-content.cd-contact {
 .cd-about .cd-cover-layer {
   background-color: #040608;
 }
-.cd-londonborn .cd-cover-layer {
+.cd-opulenthour .cd-cover-layer {
   background-color: #040608;
 }
 .cd-valeyo .cd-cover-layer {
@@ -2321,10 +2389,10 @@ main .cd-main-content.cd-contact {
 .cd-about .cd-loading-bar::before {
   background-color: #273040;
 }
-.cd-londonborn .cd-loading-bar {
+.cd-opulenthour .cd-loading-bar {
   background-color: #01b9c2;
 }
-.cd-londonborn .cd-loading-bar::before {
+.cd-opulenthour .cd-loading-bar::before {
   background-color: #273040;
 }
 .cd-valeyo .cd-loading-bar {
