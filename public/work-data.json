@@ -1,0 +1,101 @@
+[
+    {
+        "id": "lcml",
+        "title": "Founder Portfolio",
+        "details": {
+            "description": "Our Supreme Leader's personal portfolio website with a full showcase of his completed and current projects.",
+            "summary": "Sveltekit"
+        },
+        "date": "April 2022",
+        "roles": [
+            "Supreme Leader",
+            "Chief Pro"
+        ],
+        "links": [
+            {
+                "type": "web",
+                "text": "Visit Site",
+                "link": "https://zainomran.netlify.app"
+            }
+        ]
+    },
+    {
+        "id": "v1",
+        "title": "flur pro",
+        "details": {
+            "description": "Our 5th iteration of the motherland. Here, we have taken into account every inch of eye land that the user sees.",
+            "summary": "Sveltekit"
+        },
+        "date": "July 2023",
+        "roles": [
+            "UI/UX Design",
+            "Full Stack Web Development"
+        ],
+        "links": [
+            {
+                "type": "web",
+                "text": "Visit Site",
+                "link": "https://flur.pro"
+            }
+        ]
+    },
+    {
+        "id": "kic",
+        "title": "Advanced American Academy",
+        "details": {
+            "description": "A Dental Academy website for an American school in Iraq with a full student portal and a custom-built LMS",
+            "summary": "Astro"
+        },
+        "date": "July 2019",
+        "roles": [
+            "UI/UX Design",
+            "Full-Stack Web Development"
+        ],
+        "links": [
+            {
+                "type": "web",
+                "text": "Visit Site",
+                "link": "https://master.d23eh3y6davk4b.amplifyapp.com"
+            }
+        ]
+    },
+    {
+        "id": "grillzzy",
+        "title": "ARD",
+        "details": {
+            "description": "A Reliable Dumpster, a dumpster rental company with a custom-built booking system serving Omaha, NE",
+            "summary": "Gatsby"
+        },
+        "date": "June 2023",
+        "roles": [
+            "Web Design",
+            "Full Stack Web Development"
+        ],
+        "links": [
+            {
+                "type": "web",
+                "text": "Visit Site",
+                "link": "https://areliabledumpster.vercel.app"
+            }
+        ]
+    },
+    {
+        "id": "kwa",
+        "title": "You Could be here",
+        "details": {
+            "description": "Happy Clients are the best clients. Let's work together to make something great.",
+            "summary": "Any"
+        },
+        "date": "Oct 2023",
+        "roles": [
+            "Anything you need"
+        ],
+        "links": [
+            {
+                "type": "web",
+                "text": "Book A Call",
+                "link": "https://calendly.com/flur/30min"
+            }
+        ]
+    }
+]
