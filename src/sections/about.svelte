@@ -106,7 +106,7 @@ function section2IntroAnimations() {
 	</div>
 	<div class="profile-image" bind:this={profilePicContainer}>
 		{#await loadImage("assets/imgs/profile-photo.jpg") then src}
-			<img src="{src}" bind:this={profilePicture} alt="Musab's Cover" class="profile-pic">
+			<img src="{src}" bind:this={profilePicture} alt="flur's Cover" class="profile-pic">
 		{/await}
 	</div>
 </div>

@@ -100,7 +100,7 @@ async function introAnimations() {
 
     <!-- Right side -->
 	<div class="flex-wrapper decor">
-        <!-- Musab Hassan SVG Signature -->
+        <!--  SVG Signature -->
         <svg id="signature" class="name-signature" x="0px" y="0px" viewBox="0 0 375 374.999991" style="stroke: rgb(79, 78, 85);">
                 <a href="https://calendly.com/flur/30min">
                     <g>
